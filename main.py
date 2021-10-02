@@ -93,10 +93,6 @@ def about():
                                 "\nGithub Page : https://www.github.com/Viperz75")
 
 
-def question():
-    messagebox.showinfo(title="Question", message="How is it calculated (Month)?\n» Excuse me, why would i tell you that?")
-
-
 # Calculate Button
 photo = PhotoImage(file="images/Calculate2.png")
 calculate = Button(window, text="calculate", image=photo, style="flat.TButton", command=converter)
